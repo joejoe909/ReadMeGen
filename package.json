@@ -1,0 +1,22 @@
+{
+  "name": "readmegen",
+  "version": "1.0.0",
+  "description": "This is a readme generator to automate the process of making a readme file for your GitHub Repo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joejoe909/ReadMeGen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joejoe909/ReadMeGen/issues"
+  },
+  "homepage": "https://github.com/joejoe909/ReadMeGen#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
