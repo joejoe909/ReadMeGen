@@ -4,41 +4,24 @@ var fs = require('fs');
 inquirer.prompt([
     {
         type: "input",
-        name: "name",
-        message: "What is your name?"
+        name: "title",
+        message: "Please enter the title of your project."
     },
     {
-        type: "checkbox",
-        message: "What languages do you know?",
-        name: "stack",
-        choices: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "MySQL"
-        ]
+        type: "input",
+        name: "description",
+        message: "Please enter a project description."
     },
-    {
-        type: "list",
-        message: "What is your preferred method of communication?",
-        name: "contact",
-        choices: [
-            "email",
-            "phone",
-            "telekinesis"
-        ]
-    }
-]).then(function (data) {
 
-    var filename = data.name.toLowerCase().split(' ').join('') + ".json";
-
-    fs.writeFile(filename, JSON.stringify(data, null, '\t'), function (err) {
-
-        if (err) {
-            return console.log(err);
-        }
-
-        console.log("Success!");
-
-    });
+]).then(function (readmeGen) {
+    var file = readmeGen.title.toLowerCase().split(' ').join('') + ".md";
+    fs.appendFile(file,
+         "#" + JSON.stringify(readmeGen.title) + "\n" +
+         "##" + JSON.stringify(readmeGen.description) + "\n",function(err){
+             if (err) {
+                 return console.log(err);
+             }
+             console.log("Success!");
+         }
+    );
 });
