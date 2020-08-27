@@ -8,7 +8,7 @@ function injectTC() {
   - [Usage](#usage)
   - [License](#License)
   - [Contributing](#contributing)'
-}
+};
 
 
 let questions = [
@@ -71,5 +71,3 @@ inquirer.prompt(questions).then((readMeObj)=>{
 
 
 });
-
-
