@@ -1,6 +1,18 @@
 var inquirer = require("inquirer");
 var fs = require('fs');
 
+function injectTC() {
+    return TC = `
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#License)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)`
+}
+
+
 let questions = [
     {
         type: "input",
@@ -40,13 +52,13 @@ let questions = [
 ];
 
 inquirer.prompt(questions).then((readMeObj)=>{
-    var file = readMeObj.title.toLowerCase().split(' ').join('') + ".md";
     const {title, description, installation, usage,
         credits, license, contribute} = readMeObj;
 
-    fs.appendFile(file,
+    fs.appendFile("ReadMe.md",
         "# " + title + "\n\n" +
         "## Description" + "\n\n" + description + "\n\n" +
+        injectTC() +
         "## Installation" + "\n\n" + installation + "\n\n" +
         "## Usage" + "\n\n" + usage + "\n\n" + 
         "## Credits" + "\n\n" + credits + "\n\n" +
@@ -61,4 +73,5 @@ inquirer.prompt(questions).then((readMeObj)=>{
 
 
 });
+
 
