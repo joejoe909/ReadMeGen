@@ -57,7 +57,7 @@ inquirer.prompt(questions).then((readMeObj)=>{
 
     fs.appendFile("ReadMe.md",
         "# " + title + "\n\n" +
-        "## Description" + "\n\n" + description + "\n\n" +
+        "## Description" + "\n\n" + description + "\n" +
         injectTC() +
         "## Installation" + "\n\n" + installation + "\n\n" +
         "## Usage" + "\n\n" + usage + "\n\n" + 
