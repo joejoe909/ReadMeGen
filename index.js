@@ -45,7 +45,7 @@ inquirer.prompt(questions).then((readMeObj)=>{
         credits, license, contribute} = readMeObj;
 
     fs.appendFile(file,
-        "#" + title + "\n\n" +
+        "# " + title + "\n\n" +
         "## Description" + "\n\n" + description + "\n\n" +
         "## Installation" + "\n\n" + installation + "\n\n" +
         "## Usage" + "\n\n" + usage + "\n\n" + 
