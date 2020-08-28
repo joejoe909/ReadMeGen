@@ -25,11 +25,21 @@ used to create a git hub readme file.
 
 ## Credits
 
+<<<<<<< HEAD
 na
 
 ## Contributing
 
 test
+=======
+NA
+
+## Contributing
+
+I think you're good to go on cloneing this.
+
+## Questions
+>>>>>>> 4e6146d859c02be2e64c8c4fc17d9d9c2ae2d60f
 
 ## Questions
 
