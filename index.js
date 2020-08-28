@@ -49,6 +49,11 @@ let questions = [
         message: "Please enter any guidelines for interested contributors.",
     },
     {
+        type: "input",
+        name: "tests",
+        message: "Please explain testing that was performed to ensure proper operation."
+    },
+    {
         type:"input",
         name: "githubUn",
         message: "What is your GitHub user name?"
@@ -62,7 +67,7 @@ let questions = [
 
 inquirer.prompt(questions).then((readMeObj)=>{
     const {title, description, installation, usage,
-        credits, license, contributing, githubUn, email} = readMeObj;
+        credits, license, contributing, tests, githubUn, email} = readMeObj;
     
     fs.appendFile("ReadMe.md",
         "# " + title + "\n\n" + "![License]" +
