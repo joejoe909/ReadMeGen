@@ -36,7 +36,7 @@ You need node.js and means to run the script either Git Bash or Vs Code or any o
 
 ## Usage
 
-You can watch full video of the program in use <a href = "https://www.youtube.com/watch?v=ZzozOdS1iZw&feature=youtu.be"> here. </a>
+You can watch the full video of the program in use <a href = "https://www.youtube.com/watch?v=ZzozOdS1iZw&feature=youtu.be"> here. </a>
 
 <img src = "https://github.com/joejoe909/ReadMeGen/blob/master/img/rmgif.gif">
 
