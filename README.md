@@ -40,3 +40,6 @@ You need node.js and means to run the script either Git Bash or Vs Code or any o
 Go through the prompt answer the questions and it will produce your readme.md file.
 
 <img src = "https://github.com/joejoe909/ReadMeGen/blob/master/img/rmgif.gif">
+
+##Questions.
+Feel free to PM me.
