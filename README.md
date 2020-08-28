@@ -25,7 +25,6 @@ The Aim is to faciliate readme file creation.
 
 ## Credits
 
-<<<<<<< HEAD
 U of A Coding Boot Camp, Trilogy and my Teacher T.B.
 
 ## Contributing
@@ -33,15 +32,3 @@ U of A Coding Boot Camp, Trilogy and my Teacher T.B.
 I think you're good to go on cloneing this.## Questions
 
 #### Please Contact: Email:joseph_a_f@hotmail.com
-=======
-test
-
-## License
-
-https://img.shields.io/aur/license/MIT/
-![APM](https://img.shields.io/apm/l/GitHub)
-
-## Contributing
-
-test
->>>>>>> b489b0bac59de2f80c420869e6751d2b731f75e6
