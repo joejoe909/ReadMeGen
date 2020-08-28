@@ -1,5 +1,5 @@
 # test
--![MIT]https://img.shields.io/badge/License-Apache-blue.svg
+-![License]https://img.shields.io/badge/License-Apache-blue.svg
 
 ## Description
 
