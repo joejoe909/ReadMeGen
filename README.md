@@ -28,6 +28,8 @@ I'll run us through the operation of the program. We answer the questions
 and boom you no have a quality readme file that you can now push to github.  
 You can view a sample <a href = "https://github.com/joejoe909/ReadMeGen/tree/master/sample%20ReadMe%20files"> here. </a>
 
+<img src = "rmf.png">
+
 ## Installation
 
 You need node.js and means to run the script either Git Bash or Vs Code or any other node.js enviorment. 
