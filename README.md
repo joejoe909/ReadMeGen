@@ -3,7 +3,6 @@
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Questions](#Questions)
 
 ## Description
 
@@ -41,6 +40,3 @@ Go through the prompt answer the questions and it will produce your readme.md fi
 
 <img src = "https://github.com/joejoe909/ReadMeGen/blob/master/img/rmgif.gif">
 
-##Questions.
-
-na.
