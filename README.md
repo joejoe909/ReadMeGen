@@ -29,6 +29,8 @@ U of A Coding Boot Camp, Trilogy and my Teacher T.B.
 
 ## Contributing
 
-I think you're good to go on cloneing this.## Questions
+I think you're good to go on cloneing this.
+
+## Questions
 
 #### Please Contact: Email:joseph_a_f@hotmail.com
