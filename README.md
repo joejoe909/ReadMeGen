@@ -25,7 +25,7 @@ The Aim is to faciliate readme file creation.
 
 ## Credits
 
-U of A Coding Boot Camp, Trilogy and my Teacher T.B.
+NA
 
 ## Contributing
 
