@@ -28,6 +28,7 @@ test
 ## License
 
 https://img.shields.io/aur/license/MIT/
+![APM](https://img.shields.io/apm/l/GitHub)
 
 ## Contributing
 
