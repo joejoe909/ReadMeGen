@@ -12,19 +12,6 @@ function injectTC() {
   - [Questions](#Questions)`
 }
 
-function injectLic(Lic){
-    let shieldGPL = "https://img.shields.io/badge/license-GPL-green";
-    let sheildMIT = "https://img.shields.io/badge/license-MIT-green";
-    let sheildApch = "https://img.shields.io/badge/license-apache-green";
-    if(Lic === GPL){
-       return shieldGPL;
-    }else if(Lic === MIT){
-        return sheildMIT;
-    }else if(Lic === sheildApch){
-        return sheildApch;
-    }
-}
-
 let questions = [
     {
         type: "input",
@@ -55,30 +42,40 @@ let questions = [
         type:"checkbox",
         name: "license",
         message:"Please select your your license.",
-        choices:["MIT","Apache","GPL"]
+        choices:["MIT","Apache","GPL"],
     },
     {
         type: "input",
         name: "contributing",
         message: "Please enter any guidelines for interested contributors.",
     },
+    {
+        type:"input",
+        name: "githubUn",
+        message: "What is your GitHub user name?"
+    },
+    {
+        type:"input",
+        name: "email",
+        message:"What is your email?",
+    },
 ];
 
 inquirer.prompt(questions).then((readMeObj)=>{
     const {title, description, installation, usage,
-        credits, license, contributing} = readMeObj;
-
-    lic = injectLic(license);    
-
+        credits, license, contributing,githubUN, email} = readMeObj;
+    
     fs.appendFile("ReadMe.md",
-        "# " + title + "\n\n" +
+        "# " + title + "\n\n" + "![License]" +
+        "(https://img.shields.io/badge/License-" + license + "-blue.svg \"License Badge\")" + "\n\n" +
         "## Description" + "\n\n" + description + "\n\n" +
-        injectTC() + "\n\n" +
+        injectTC() + "\n\n" +  //inject table of contents
         "## Installation" + "\n\n" + installation + "\n\n" +
         "## Usage" + "\n\n" + usage + "\n\n" + 
         "## Credits" + "\n\n" + credits + "\n\n" +
-        "## License" + "\n\n" + lic + "/" + "\n\n" +
-        "## Contributing" + "\n\n" + contributing, function(err){
+        "## Contributing" + "\n\n" + contributing +
+        "## Questions" + "\n\n" +
+        "### Please Contact" + githubUn + "Email:" + email, function(err){
             if(err){
                 return console.log(err);
             }
