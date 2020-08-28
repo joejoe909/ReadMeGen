@@ -2,14 +2,28 @@ var inquirer = require("inquirer");
 var fs = require('fs');
 
 function injectTC() {
-    return TC = `
+    return `
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#License)
-  - [Contributing](#contributing)'
-};
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#Questions)`
+}
 
+function injectLic(Lic){
+    let shieldGPL = "https://img.shields.io/badge/license-GPL-green";
+    let sheildMIT = "https://img.shields.io/badge/license-MIT-green";
+    let sheildApch = "https://img.shields.io/badge/license-apache-green";
+    if(Lic === GPL){
+       return shieldGPL;
+    }else if(Lic === MIT){
+        return sheildMIT;
+    }else if(Lic === sheildApch){
+        return sheildApch;
+    }
+}
 
 let questions = [
     {
@@ -38,20 +52,23 @@ let questions = [
         message: "Please enter your credits list.",
     },
     {
-        type:"input",
+        type:"checkbox",
         name: "license",
-        message:"Enter your license information.",
+        message:"Please select your your license.",
+        choices:["MIT","Apache","GPL"]
     },
     {
         type: "input",
-        name: "contribute",
+        name: "contributing",
         message: "Please enter any guidelines for interested contributors.",
     },
 ];
 
 inquirer.prompt(questions).then((readMeObj)=>{
     const {title, description, installation, usage,
-        credits, license, contribute} = readMeObj;
+        credits, license, contributing} = readMeObj;
+
+    lic = injectLic(license);    
 
     fs.appendFile("ReadMe.md",
         "# " + title + "\n\n" +
@@ -60,14 +77,13 @@ inquirer.prompt(questions).then((readMeObj)=>{
         "## Installation" + "\n\n" + installation + "\n\n" +
         "## Usage" + "\n\n" + usage + "\n\n" + 
         "## Credits" + "\n\n" + credits + "\n\n" +
-        "## License" + "\n\n" + license + "\n\n" +
-        "## Contribute" + "\n\n" + contribute, function(err){
+        "## License" + "\n\n" + lic + "/" + "\n\n" +
+        "## Contributing" + "\n\n" + contributing, function(err){
             if(err){
                 return console.log(err);
             }
             console.log("Success!");
-        }
-        );
-
-
+        });
 });
+
+
