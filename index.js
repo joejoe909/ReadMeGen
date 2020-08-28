@@ -6,7 +6,6 @@ function injectTC() {
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [License](#License)
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#Questions)`
@@ -63,7 +62,7 @@ let questions = [
 
 inquirer.prompt(questions).then((readMeObj)=>{
     const {title, description, installation, usage,
-        credits, license, contributing,githubUN, email} = readMeObj;
+        credits, license, contributing, githubUn, email} = readMeObj;
     
     fs.appendFile("ReadMe.md",
         "# " + title + "\n\n" + "![License]" +
@@ -73,9 +72,9 @@ inquirer.prompt(questions).then((readMeObj)=>{
         "## Installation" + "\n\n" + installation + "\n\n" +
         "## Usage" + "\n\n" + usage + "\n\n" + 
         "## Credits" + "\n\n" + credits + "\n\n" +
-        "## Contributing" + "\n\n" + contributing +
+        "## Contributing" + "\n\n" + contributing + "\n\n" +
         "## Questions" + "\n\n" +
-        "### Please Contact" + githubUn + "Email:" + email, function(err){
+        "### Please Contact: " + githubUn + " Email: " + email, function(err){
             if(err){
                 return console.log(err);
             }
