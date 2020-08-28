@@ -1,7 +1,5 @@
 # test
-![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
-![License](https://img.shields.io/badge/License-GPL-blue.svg "License Badge")
-![License](https://img.shields.io/badge/License-Apache-blue.svg "License Badge")
+
 ## Description
 
 test
