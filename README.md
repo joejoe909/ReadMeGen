@@ -33,7 +33,7 @@ and boom here is our readme file that we can now push to github.
 
 ## Installation
 
-You need node.js and means to run the script either Git Bash or Vs Code or anyother node.js enviorment. 
+You need node.js and means to run the script either Git Bash or Vs Code or any other node.js enviorment. 
 
 ## Usage
 
