@@ -24,7 +24,8 @@ utilize destructuring to create individual variables that we pass into
 a function that generates a string based on the destructured variables
 and inserts the necessary markdown characherts. here is were we also 
 inject the table of contents. once it's done the file generated. So
-I'll run us through the operation of the program.
+I'll run us through the operation of the program. You can view a sample
+<a href = "https://github.com/joejoe909/ReadMeGen/tree/master/sample%20ReadMe%20files" here. </a>
 
 we answer the questions
 
