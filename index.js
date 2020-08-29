@@ -71,7 +71,7 @@ inquirer.prompt(questions).then((readMeObj)=>{
     const {title, description, installation, usage,
         credits, license, contributing, tests, githubUn, email} = readMeObj;
     
-    fs.appendFile("ReadMe.md",
+    fs.appendFile("_ReadMe.md",
         "# " + title + "\n\n" + "![License]" +
         "(https://img.shields.io/badge/License-" + license + "-blue.svg \"License Badge\")" + "\n\n" +
         "## Description" + "\n\n" + description + "\n\n" +
