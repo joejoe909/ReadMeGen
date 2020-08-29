@@ -32,7 +32,7 @@ You can view a sample <a href = "https://github.com/joejoe909/ReadMeGen/tree/mas
 
 ## Installation
 
-You need node.js and means to run the script either Git Bash or Vs Code or any other node.js enviorment. 
+In your node prompt type: node index.js. You'll need node.js and means to run the script either Git Bash or Vs Code or any other node.js enviorment I may be unaware of.  
 
 ## Usage
 
