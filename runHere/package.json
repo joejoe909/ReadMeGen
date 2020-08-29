@@ -1,7 +1,7 @@
 {
   "name": "readmegen",
   "version": "1.0.0",
-  "description": "This is a readme generator to automate the process of making a readme file for your GitHub Repo.",
+  "description": "- [Description](#description)   - [Installation](#installation)   - [Usage](#usage)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

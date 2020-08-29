@@ -30,10 +30,7 @@ You can view a sample <a href = "https://github.com/joejoe909/ReadMeGen/tree/mas
 
 <img src = "./img/rmf.png">
 
-## Installation
-
-You need node.js and means to run the script either Git Bash or Vs Code or any other node.js enviorment. 
-
+## Installationdir
 ## Usage
 
 You can watch the full video of the program in use <a href = "https://www.youtube.com/watch?v=ZzozOdS1iZw&feature=youtu.be"> here. </a>

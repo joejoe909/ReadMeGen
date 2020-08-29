@@ -1,35 +1,73 @@
-# The GitHub ReadMe file generator.
+# Fake Project.
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
+![License](https://img.shields.io/badge/License-MIT,Apache,GPL-blue.svg "License Badge")
 
 ## Description
 
-ReadMe file generator designed to facilitate and automate the creation of GitHub readme files. The program operates within a node.js prompt.
+
 
 
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#Questions)
 
 ## Installation
 
-Install Node.js, VS Code or Git Bash to run the script. Copy the Index.js to a folder and install inquirer via npm.
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum
 
 ## Usage
 
-Use within a node.js prompt. A ReadMe.md file will be generated that can be pushed to GitHub for presentable readme.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum!
 
 ## Credits
 
-Joe F., Fake Name 1, Fake Name 2.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum!
 
 ## Contributing
 
-Just use the git hub link to clone the file. 
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum!
 
 ## Questions
 
-### Please Contact: joejoe909 Email: joseph_a_f@hotmail.com
+### Please Contact: Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum! Email: Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum!# Fake Project.
+
+![License](https://img.shields.io/badge/License-Apache-blue.svg "License Badge")
+
+## Description
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum!
+
+
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#Questions)
+
+## Installation
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum!
+
+## Usage
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum!
+
+## Credits
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum!
+
+## Contributing
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum!
+
+## Questions
+
+### Please Contact: Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum! Email: Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum!
