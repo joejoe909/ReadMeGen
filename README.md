@@ -32,7 +32,7 @@ You can view a sample <a href = "https://github.com/joejoe909/ReadMeGen/tree/mas
 
 ## Installation
 
-In your node prompt type: node index.js. You'll need node.js and means to run the script either Git Bash or Vs Code or any other node.js enviorment I may be unaware of. The file created is _ReadMe.md to avoid overwriting this readme file.
+In your node prompt type: node index.js. You'll need node.js and the npm package Inquirer. You also will need a means to run the script either Git Bash or Vs Code or any other node.js enviorment. The file created is _ReadMe.md, this is to avoid overwriting this readme file.
 
 ## Usage
 
