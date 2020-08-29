@@ -1,8 +1,8 @@
 var inquirer = require("inquirer");
 var fs = require('fs');
 
-function injectTC() {
-    return `
+function injectTC() { //using template literal to inject Table of Contents into readme string at line 74.
+    return `     
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
