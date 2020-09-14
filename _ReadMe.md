@@ -1,12 +1,12 @@
-# Fake Project.
+# Eat-Da-Burger
 
-![License](https://img.shields.io/badge/License-MIT,GPL-blue.svg "License Badge")
+![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 
 ## Description
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum!
+Eat-Da-Burger is a noobie database server. One can enter a dream burger and then mark weather they've consumed it via the devour button. The project utilizes MySQL,Express Server, Express-Handle Bars and of course Javascript. Once the program was completed it was uploaded to Herokuand utilizes JAWS DB.  
 
-
+     
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -18,20 +18,20 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi,
 
 ## Installation
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum!
+You will need Node JS, I worked mainly in VS Code. Install NPM packages MySQL Server, Express, Express Handlebars and for testing I used nodemon. The project utilizes the structure necessary for Express Handle-bars to dynamically create the HTML necessary.
 
 ## Usage
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum!
+A simple data-base app to help others get into MySql and Database programing in Node.js and Javascript.
 
 ## Credits
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum!
+Joe F.
 
 ## Contributing
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum!
+Just clone it to your native system. Have a go!
 
 ## Questions
 
-### Please Contact: Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nostrum nisi, minus id accusamus labore maiores veritatis officia. Libero provident adipisci eos nam! Harum ea commodi vel reiciendis, error cum! Email: test@email.
+### Please Contact: joejoe909 Email: joseph_a_f@hotmail.com
